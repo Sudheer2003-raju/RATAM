@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratam Consultancy | Chartered Accountant Services</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.jpg" alt="">
+            </div>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#appointment">Book Appointment</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <h1>Professional CA, GST & Tax Consultancy Services</h1>
+
+            <p>
+                Resolve Audit, Tax & Accounting Matters with Expert Guidance
+            </p>
+
+            <a href="#appointment" class="btn">
+                Book Appointment
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Services -->
+
+    <section class="services" id="services">
+
+        <h2>Our Services</h2>
+
+        <div class="service-grid">
+
+            <div class="card">
+                <h3>Accounting Services</h3>
+                <ul>
+                    <li>Maintaining books of accounts</li>
+                    <li>Financial Statements</li>
+                    <li>Accounting Setup</li>
+                    <li>MIS Reports</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Income Tax</h3>
+                <ul>
+                    <li>IT Return Filing</li>
+                    <li>Tax Planning</li>
+                    <li>Tax Advisory</li>
+                    <li>Scrutiny Notices</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>GST Services</h3>
+                <ul>
+                    <li>GST Registration</li>
+                    <li>GST Return Filing</li>
+                    <li>GST Audit</li>
+                    <li>E-way Bill</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Company Registration</h3>
+                <ul>
+                    <li>Pvt Ltd Company</li>
+                    <li>LLP Registration</li>
+                    <li>ROC Filing</li>
+                    <li>DIN & KYC</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About -->
+
+    <section class="about" id="about">
+
+        <div class="container">
+
+            <h2>About Ratam Consultancy</h2>
+
+            <p>
+                We provide accounting, taxation, GST compliance, company
+                registration and business advisory services to startups,
+                individuals and enterprises across India.
+            </p>
+
+            <p>
+                <strong>Founder:</strong> U. Narahari, CA
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Appointment -->
+
+    <section class="appointment" id="appointment">
+
+        <h2>Book Appointment</h2>
+
+        <form id="appointmentForm">
+
+            <label class="form-field">
+                Name <span class="required">*</span>
+                <input type="text" id="name" placeholder="Name" required>
+            </label>
+
+            <label class="form-field">
+                Email <span class="required">*</span>
+                <input type="email" id="email" placeholder="Email" required>
+            </label>
+
+            <label class="form-field">
+                Phone Number <span class="required">*</span>
+                <input type="tel" id="phone" placeholder="Phone Number" required>
+            </label>
+
+            <label class="form-field">
+                Appointment Date <span class="required">*</span>
+                <input type="text" id="appointmentDate" placeholder="DD/MM/YY" inputmode="numeric" pattern="\d{2}/\d{2}/\d{2}" required>
+                <div class="date-presets">
+                    <button type="button" class="preset-btn" data-offset="0">Today</button>
+                    <button type="button" class="preset-btn" data-offset="1">Tomorrow</button>
+                    <button type="button" class="preset-btn" data-offset="2">Day After</button>
+                </div>
+            </label>
+
+            <label class="form-field">
+                Service Requirement <span class="required">*</span>
+                <select id="service" required>
+                    <option value="">Select Service Requirement</option>
+                    <option value="Accounting Services">Accounting Services</option>
+                    <option value="Income Tax">Income Tax</option>
+                    <option value="GST Services">GST Services</option>
+                    <option value="Company Registration">Company Registration</option>
+                    <option value="Other">Other</option>
+                </select>
+            </label>
+
+            <label class="form-field">
+                Additional details (optional)
+                <textarea id="message" rows="5" placeholder="Additional details (optional)"></textarea>
+            </label>
+
+            <button type="submit">
+                Submit
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- Footer Visiting Card -->
+
+    <section class="footer-card" id="contact">
+
+        <div class="footer-grid">
+            <div class="footer-card-left">
+                <div class="footer-badge">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <h3>Ratam Consultancy</h3>
+                <p>Resolve Audit | Tax & Accounting Matters</p>
+            </div>
+
+            <div class="footer-card-right">
+                <div class="footer-person">
+                    <div class="footer-person-title">
+                        <span class="footer-logo-mark">CA</span>
+                        Narahari
+                    </div>
+                    <span class="footer-person-role">Chartered Accountant Partner</span>
+                </div>
+
+                <div class="footer-person">
+                    <div class="footer-person-title">
+                        <span class="footer-logo-mark">CA</span>
+                        MahaLakshmi
+                    </div>
+                    <span class="footer-person-role">Chartered Accountant, CMA Partner</span>
+                </div>
+
+                <div class="footer-contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+91 9494478994</p>
+                    </div>
+                </div>
+
+                <div class="footer-contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>Ratamconsultancy@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="footer-contact-item">
+                    <i class="fas fa-location-dot"></i>
+                    <div>
+                        <h4>Address</h4>
+                        <p>No.189/1, Sri Ranganatha Swamy Nilaya, 5th Main, BTM 1st Stage, KEB Layout, Bangalore - 560076</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- WhatsApp -->
+
+    <a href="https://wa.me/919494478994"
+        class="whatsapp"
+        target="_blank">
+
+        <i class="fab fa-whatsapp"></i>
+
+    </a>
+
+    <a href="mailto:Ratamconsultancy@gmail.com"
+        class="mail-float"
+        target="_blank">
+
+        <i class="fas fa-envelope"></i>
+
+    </a>
+
+    <a href="tel:+919494478994"
+        class="call-float"
+        target="_blank">
+
+        <i class="fas fa-phone"></i>
+
+    </a>
+
+    <script src="script.js"></script>
+
+        <!-- Message Modal -->
+        <div id="messageModal" class="message-modal hidden" role="dialog" aria-live="polite">
+                <div class="message-content">
+                    <div id="messageIcon" class="message-icon" aria-hidden="true"></div>
+                    <p id="messageText">Message</p>
+                    <div class="message-actions">
+                        <button id="retryBtn" type="button">Retry</button>
+                        <button id="openConsoleBtn" type="button">Open Console</button>
+                        <button id="closeMsgBtn" type="button">Close</button>
+                    </div>
+                </div>
+            </div>
+
+</body>
+
+</html>
