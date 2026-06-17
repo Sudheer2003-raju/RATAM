@@ -1,5 +1,4 @@
-const BACKEND_URL = getBackendUrl();
-
+const BACKEND_URL = 'https://ratam-backend.onrender.com/book';
 function getBackendUrl() {
 	if (window.location.protocol === 'file:') {
 		return 'http://localhost:5000/book';
